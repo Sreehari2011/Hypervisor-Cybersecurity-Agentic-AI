@@ -1,11 +1,9 @@
 from tools.system_tools import execute_shell_command, execute_code, list_files, read_file, write_file, grep_file, read_file_lines, wc_file, ssh_interactive_exec, submit_final_report, map_vhost, analyze_entropy, crypto_analyzer
 from tools.network_tools import network_scan_nmap, check_port_listener
-# --- ADDED advanced_http_request ---
 from tools.web_tools import web_search_osint, retrieve_url_content, advanced_http_request
 from langchain_core.tools import tool
 from config import MODEL_PLANNER, MODEL_EXECUTOR
 
-# --- GLOBAL RULE INJECTION ---
 SYSTEM_BASE_GUIDELINES = """
 ## 1. COGNITIVE FLOW (ReAct / OODA Enforcement)
     - **MANDATORY REASONING:** Before issuing ANY tool call, you MUST output a brief internal monologue using a `<scratchpad>` tag. 
