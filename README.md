@@ -1,3 +1,5 @@
+<img width="1043" height="806" alt="image" src="https://github.com/user-attachments/assets/0698a8ac-d780-48e5-b9c0-62e456d6effb" />
+
 # Hypervisor: Autonomous Multi-Agent Mesh for Cybersecurity Orchestration
 
 **Hypervisor** is a stateful, autonomous Agentic Mesh designed to execute complex cybersecurity kill-chains. Built on **LangGraph**, it moves beyond simple ReAct loops into a specialized mesh architecture capable of reasoning, pivoting, and managing massive forensic data without context collapse.
