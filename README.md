@@ -14,8 +14,6 @@ Using a custom LangGraph reducer, Hypervisor monitors token usage. When a thresh
 ### 3. Multi-Agent OODA Orchestration
 A mesh of 10 specialized agents (RedTeam, BlueTeam, DFIR, Reverse Engineering) orchestrated by a **Mission Commander**. Each agent follows a strict **OODA (Observe, Orient, Decide, Act)** flow, preventing infinite loops and ensuring strategic pivoting.
 
-<img width="1043" height="806" alt="image" src="https://github.com/user-attachments/assets/8f580a1f-8831-49d8-ad35-67c4cbdab3d8" />
-
 ## 🛠️ Technical Stack
 - **Orchestration:** LangGraph (StateGraph)
 - **Framework:** LangChain / Python
