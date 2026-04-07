@@ -20,20 +20,6 @@ A mesh of 10 specialized agents (RedTeam, BlueTeam, DFIR, Reverse Engineering) o
 - **Environment:** Headless Kali Linux (Dockerized)
 - **Data Parsing:** JSON-native conversion via `jc`
 
-## 🤖 The Mesh: Agent Registry
-Hypervisor utilizes a multi-agent routing topology. The Selection Agent acts as the router, delegating execution to isolated domain experts.
-Agent Persona	Specialty Domain	Tooling Arsenal
-- Selection_Agent	Strategic routing and campaign design.	Routing Logic Only
-- Network_Analyzer	Reconnaissance and High Value Target (HVT) identification.	nmap, JSON port evaluation
-- Bug_Bounter	Web application fuzzing, VHost mapping, and logic bypass.	Advanced HTTP, OSINT
-- RedTeam_Agent	Exploitation, Privilege Escalation, and Shell acquisition.	SUID tracing, SSH Fabric
-- BlueTeam_Agent	Precision remediation, configuration auditing, and hardening.	Zero-disruption patching
-- DFIR_Agent	Forensic timeline reconstruction and IOC extraction.	Massive log pagination
-- Reverse_Engineering	Headless binary dissection and malware static analysis.	r2pipe, Python instrumentation
-- Memory_Analysis	Runtime secrets extraction and process hooking.	Headless gdb, frida
-- Replay_Attack	PCAP analysis, session hijacking, and wire manipulation.	Headless tshark filtering
-- Reporter	Aggregates findings into definitive HTML security assessments.	Report Synthesis
-
 ## 🏁 Getting Started
 1. Clone the repo.
 2. Setup `.env` (Use `.env.example`).
