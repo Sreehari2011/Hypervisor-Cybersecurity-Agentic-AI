@@ -1,0 +1,29 @@
+# 1. SECURITY & CREDENTIALS (CRITICAL)
+.env
+.env.*
+*.pem
+*.key
+
+# 2. PYTHON VIRTUAL ENVIRONMENTS
+venv/
+.venv/
+env/
+ENV/
+
+# 3. PYTHON CACHE & COMPILED FILES
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 4. HYPERVISOR WORKSPACE & BUFFERS
+# Prevents pushing the AI's generated HTML reports or temporary logs
+workspace/
+/logs/
+/tmp/agent_buffer_*.log
+
+# 5. OS & IDE HIDDEN FILES
+.DS_Store
+.vscode/
+.idea/
+*.swp
+ttyd*
