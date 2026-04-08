@@ -2,7 +2,7 @@
 
 **Hypervisor** is a stateful, autonomous Agentic Mesh designed to execute complex cybersecurity kill-chains. Built on **LangGraph**, it moves beyond simple ReAct loops into a specialized mesh architecture capable of reasoning, pivoting, and managing massive forensic data without context collapse.
 
-## 🚀 The Engineering Challenge
+## The Engineering Challenge
 Most AI Agents fail in real-world environments because of **Context Window Explosion** and **Cognitive Drift**. Hypervisor solves this using three architectural innovations:
 
 ### 1. Forensic Buffer Protocol
@@ -14,13 +14,13 @@ Using a custom LangGraph reducer, Hypervisor monitors token usage. When a thresh
 ### 3. Multi-Agent OODA Orchestration
 A mesh of 10 specialized agents (RedTeam, BlueTeam, DFIR, Reverse Engineering) orchestrated by a **Mission Commander**. Each agent follows a strict **OODA (Observe, Orient, Decide, Act)** flow, preventing infinite loops and ensuring strategic pivoting.
 
-## 🛠️ Technical Stack
+## Technical Stack
 - **Orchestration:** LangGraph (StateGraph)
 - **Framework:** LangChain / Python
 - **Environment:** Headless Kali Linux (Dockerized)
 - **Data Parsing:** JSON-native conversion via `jc`
 
-## 🏁 Getting Started
+## Getting Started
 1. Clone the repo.
 2. Setup `.env` (Use `.env.example`).
 3. Run `docker build -t hypervisor .`
